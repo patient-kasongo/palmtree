@@ -1,9 +1,10 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
-    --secondary: #34AD54;
+    --primary: #061506;
+    --secondary: #0fcd1070;
+    --minimal:#b80c0d;
     --light: #EEF9FF;
-    --dark: #091E3E;
+    --dark: #3b5944;
 }
 
 
@@ -248,7 +249,12 @@ h6,
     height: 3rem;
 }
 
-
+.icone_backgroung{
+    background-color: var(--minimal);
+}
+.secondary_backgroung{
+    background-color: var(--secondary);
+}
 /*** Section Title ***/
 .section-title::before {
     position: absolute;
@@ -417,7 +423,7 @@ h6,
 }
 
 .team-item:hover .team-social {
-    background: rgba(9, 30, 62, .7);
+    background: var(--secondary);
 }
 
 .team-item:hover .team-social a.btn:first-child {
