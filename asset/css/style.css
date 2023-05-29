@@ -1,12 +1,36 @@
 /********** Template CSS **********/
 :root {
-    --primary: #061506;
-    --secondary: #0fcd1070;
+    --primary: #004F2D;
+    --secondary: #B2FF9E70;
     --minimal:#b80c0d;
     --light: #EEF9FF;
-    --dark: #3b5944;
+    --dark: #0A8754;
 }
 
+.red-bg{
+    background-color: var(--minimal)!important;
+}
+.red-color{
+    color:var(--minimal)!important;
+}
+.primary-background{
+    background-color: var(--primary)!important;
+}
+.primary-color{
+    color:var(--primary)!important;
+}
+.secondary_background{
+    background-color: var(--secondary)!important;
+}
+.secondary_color{
+    color: var(--secondary)!important;
+}
+.dark_bg{
+    background-color: var(--dark)!important;
+}
+.dark_color{
+    color:var(--dark)!important;
+}
 
 /*** Spinner ***/
 .spinner {
@@ -249,12 +273,7 @@ h6,
     height: 3rem;
 }
 
-.icone_backgroung{
-    background-color: var(--minimal);
-}
-.secondary_backgroung{
-    background-color: var(--secondary);
-}
+
 /*** Section Title ***/
 .section-title::before {
     position: absolute;
