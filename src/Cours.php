@@ -83,7 +83,7 @@ class Cours
         try{
             $query = "SELECT * from cours";
             $prepare = $pdo->prepare($query);
-            $prepare->excute();
+            $prepare->execute();
             $arrayCours=$prepare->fetchAll();
             return $arrayCours;
         }catch(\PDOException $e){
