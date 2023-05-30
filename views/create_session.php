@@ -1,8 +1,8 @@
 <?php
-error_reporting(E_ALL);
 require VENDOR;
 $cours=\App\Cours::getCours();
 ?>
+<pre><?php var_dump($cours); ?><pre/>
 <section class="container text-center">
     <header>
         <h1 class="display-5"><img src="../../asset/img/palm(2).png">Palm tree strength</h1>
