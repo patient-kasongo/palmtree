@@ -77,4 +77,17 @@ class Cours
             return false;
         }
     }
+    public static function getCours()
+    {
+        $pdo = Database::getPdo();
+        try{
+            $query = "SELECT * from cours";
+            $prepare = $pdo->prepare($query);
+            $prepare->excute();
+            $arrayCours=$prepare->fetchAll();
+            return $arrayCours;
+        }catch(\PDOException $e){
+            return false;
+        }
+    }
 }

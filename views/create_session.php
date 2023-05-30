@@ -1,5 +1,7 @@
 <?php
-
+error_reporting(E_ALL);
+require VENDOR;
+$cours=\App\Cours::getCours();
 ?>
 <section class="container text-center">
     <header>
@@ -9,9 +11,7 @@
 
     <form method="post" class="text-start">
         <select name="cours" class="form-select">
-            <option value="idCours1">nom cours1</option>
-            <option value="idCours2">nom cours2</option>
-            <option value="idCours3">nom cours2</option>
+            
         </select>
         <div class="form-group">
             <input type="text" class="form-control" required maxlength="100" name="description" placeholder="petite description de la session de formation">
