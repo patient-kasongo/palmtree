@@ -13,8 +13,6 @@ if(!empty($_POST))
     $nouvelleSession->setPrixMod($_POST['prxmodule']);
     $nouvelleSession->setNombreMod($_POST['nbmodule']);
 
-    $nouvelleSession->print();
-
     $verify = $nouvelleSession->saveSession();
     if ($verify) {
         echo "<div class='alert alert-success'>Vous avez enregistré une nouvelle session de formation</div>";
@@ -24,7 +22,6 @@ if(!empty($_POST))
 }
 
 ?>
-<pre><?php var_dump($cours); ?><pre/>
 <section class="container text-center">
     <header>
         <h1 class="display-5"><img src="../../asset/img/palm(2).png">Palm tree strength</h1>

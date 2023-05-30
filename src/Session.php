@@ -71,10 +71,15 @@
         public static function getSessions()
         {
             $connexion=Database::getPdo();
-            $query = "SELECT idSession,description,debut,fin,prix,prixModule,nombreModule,intitule from session inner join cours on session.idCours = cours.idCours";
-            $req=$connexion->prepare($query);
-            $req->execute();
-            $session = $req->fetchAll();
-            return $session;
+            try {
+                $query = "SELECT idSession,description,debut,fin,prix,prixModule,nombreModule,intitule from session inner join cours on session.idCours = cours.idCours";
+                $req=$connexion->prepare($query);
+                $req->execute();
+                $session = $req->fetchAll();
+                return $session;
+            }catch (\PDOException $e){
+                return false;
+        }
+
         }
     }

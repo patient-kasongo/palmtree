@@ -10,6 +10,13 @@ class Cours
     private $professeur;
 
     /**
+     * @param mixed $id
+     */
+    public function setId($id): void
+    {
+        $this->id = $id;
+    }
+    /**
      * @param mixed $intitule
      */
     public function setIntitule($intitule): void

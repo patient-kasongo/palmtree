@@ -334,7 +334,7 @@
                                     <div class="d-flex justify-content-between mb-3"><span>Début</span><?=$value->debut?></div>
                                     <div class="d-flex justify-content-between mb-3"><span>Fin</span><?=$value->fin?></div>
                                     <div class="d-flex justify-content-between mb-2"><span>Nombres des modules</span><?=$value->nombreModule?></div>
-                                    <a href="/public/inscription-<?=$value->idSession?>" class="btn py-2 px-4 mt-4 text-white red-bg">S'incrire</a>
+                                    <a href="/public/client/inscription-<?=$value->idSession?>" class="btn py-2 px-4 mt-4 text-white red-bg">S'incrire</a>
                                 </div>
                             </div>
                         </div>
