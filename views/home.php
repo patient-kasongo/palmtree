@@ -1,6 +1,7 @@
-
 <?php
+    require VENDOR;
     $page_title = "Palm Tree Strength";
+    $sessions=\App\Session::getSessions();
 ?>
 <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner"></div>
@@ -308,7 +309,6 @@
     </div>
 
 
-
     <!-- formation session -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="formation" data-spy>
         <div class="container py-5">
@@ -316,66 +316,34 @@
                 <h5 class="fw-bold dark_color text-uppercase">Sessions de formation</h5>
                 <h1 class="mb-0">Nous offrons des prix compétitifs à nos clients</h1>
             </div>
-            <div class="row">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="bg-light rounded">
-                        <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="dark_color mb-1">Nom de la formation</h4>
-                            <small class="text-uppercase">Petites description</small>
+            <div class="container d-flex justify-content-center flex-wrap">
+                <?php if($sessions): ?>
+                    <?php foreach ($sessions as $value):?>
+                        <div class="m-1" data-wow-delay="0.3s" style="width:370px">
+                            <div class="bg-white rounded shadow" style="z-index: 1;">
+                                <div class="border-bottom py-4 px-5 mb-4">
+                                    <h4 class="dark_color mb-1"><?=$value->intitule?></h4>
+                                    <small class="text-uppercase"><?=$value->description?></small>
+                                </div>
+                                <div class="p-5 pt-0">
+                                    <h1 class="display-5 mb-3">
+                                        <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small><?=$value->prixModule?><small
+                                            class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Module</small>
+                                    </h1>
+                                    <div class="d-flex justify-content-between mb-3"><span>Prix inscription</span><?=$value->prix?></div>
+                                    <div class="d-flex justify-content-between mb-3"><span>Début</span><?=$value->debut?></div>
+                                    <div class="d-flex justify-content-between mb-3"><span>Fin</span><?=$value->fin?></div>
+                                    <div class="d-flex justify-content-between mb-2"><span>Nombres des modules</span><?=$value->nombreModule?></div>
+                                    <a href="/public/inscription-<?=$value->idSession?>" class="btn py-2 px-4 mt-4 text-white red-bg">S'incrire</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="p-5 pt-0">
-                            <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49.00<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Module</small>
-                            </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>Prix inscription</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Début</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>fait</span><i class="fa fa-times text-danger pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Nombres des modules</span><i class="fa fa-times text-danger pt-1"></i></div>
-                            <a href="" class="btn py-2 px-4 mt-4 red-bg text-white">S'inscrire</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="bg-white rounded shadow position-relative" style="z-index: 1;">
-                        <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="dark_color mb-1">Nom de la formation</h4>
-                            <small class="text-uppercase">Petites descriptions</small>
-                        </div>
-                        <div class="p-5 pt-0">
-                            <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>99.00<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Module</small>
-                            </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>Prix inscription</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Début</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Fin</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Nombres des modules</span><i class="fa fa-times text-danger pt-1"></i></div>
-                            <a href="" class="btn py-2 px-4 mt-4 text-white red-bg">S'incrire</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="bg-light rounded">
-                        <div class="border-bottom py-4 px-5 mb-4">
-                            <h4 class="dark_color mb-1">Nom de la formation</h4>
-                            <small class="text-uppercase">Petite description</small>
-                        </div>
-                        <div class="p-5 pt-0">
-                            <h1 class="display-5 mb-3">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>149.00<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Module</small>
-                            </h1>
-                            <div class="d-flex justify-content-between mb-3"><span>Prix inscription</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Début</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-3"><span>Fin</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <div class="d-flex justify-content-between mb-2"><span>Nombres des modules</span><i class="fa fa-check text-primary pt-1"></i></div>
-                            <a href="" class="btn py-2 px-4 mt-4 text-white red-bg">S'inscrire</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    <?php endforeach ?>
+                <?php else: ?>
+                    <div class="alert alert-danger">Aucune session de formation pour l'instant</div>
+                <?php endif ?>
+            </div> 
+        </div>          
     </div>
 
 
