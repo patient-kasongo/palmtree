@@ -4,25 +4,26 @@ namespace App;
 
 class User
 {
-    private $id;
-    private $username;
+    private $pseudo;
     private $password;
+
+    private $idUser;
     private $role;
 
     /**
-     * @param mixed $id
+     * @param mixed $idUser
      */
-    public function setId($id): void
+    public function setIdUser($idUser): void
     {
-        $this->id = $id;
+        $this->idUser = $idUser;
     }
 
     /**
-     * @param mixed $username
+     * @param mixed $pseudo
      */
-    public function setUsername($username): void
+    public function setPseudo($pseudo): void
     {
-        $this->username = $username;
+        $this->pseudo = $pseudo;
     }
 
     /**
@@ -40,23 +41,20 @@ class User
     {
         $this->role = $role;
     }
-
     /**
      * @return mixed
      */
-    public function getId()
+    public function getIdUser()
     {
-        return $this->id;
+        return $this->idUser;
     }
-
     /**
      * @return mixed
      */
-    public function getUsername()
+    public function getPseudo()
     {
-        return $this->username;
+        return $this->pseudo;
     }
-
     /**
      * @return mixed
      */
@@ -73,10 +71,10 @@ class User
         return $this->role;
     }
     public function redirectUser($role){
-        if($role=="DIRECTION DES OPERATIONS"){
+        if($role == 'DIRECTION DES OPERATIONS'){
             header("Location:/public/cours/management");
-        }elseif($role=="DIRECTION DES FINANCES" || $role=="SECRETARIAT"){
-            header("Location:/public/client/management");
+        }elseif( $role == 'DIRECTION DES FINANCES' || $role== 'SECRETARIAT'){
+            header('Location:/public/client/management');
         }else{
             header("Location:/public");
         }

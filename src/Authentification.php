@@ -6,7 +6,7 @@ class Authentification
 {
     private $pdo;
 
-    private $auth;
+    private static $auth;
     
     private $pseudo;
     
@@ -52,9 +52,9 @@ class Authentification
         if($id===null){
             return null;
         }
-        $query=$this->pdo->prepare("SELECT * from users where idUser=?");
+        $query=$this->pdo->prepare('SELECT * from users where idUser=?');
         $query->execute([$id]);
-        $user=$query->fetchOject(User::class);
+        $user = $query->fetchObject(User::class);
         return $user ?? null;
     }
     public function login(): ?User
@@ -65,30 +65,33 @@ class Authentification
         if( $user === false ){
             return null;
         }
+
         // on vérifie le mot de passe
-        //var_dump(password_verify($this->motdepasse, $user->getPassword()));
         if(password_verify($this->motdepasse, $user->getPassword())){
-            if(session_status()===PHP_SESSION_NONE){
+            if(session_status() === PHP_SESSION_NONE){
                 session_start();
             }
-            $_SESSION['auth']=$user->getId();
+            $_SESSION['auth']=$user->getIdUser();
             return $user;
         }
         return null;
     }
+    public function logout():void
+    {
+        if(session_status() == PHP_SESSION_NONE){
+            session_start();
+        }
+        session_destroy();
+    }
     public static function accessBlocker()
     {
-        $user= Authentification::getAuth()->user();
-        if($user === null){
+        if(session_status()== PHP_SESSION_NONE){
+            session_start();
+        }
+        if(!isset($_SESSION['auth'])){
             header('location:/public');
             exit();
         }
     }
-    public static function getAuth():Auth
-    {
-        if(!self::$auth){
-            self::$auth=new Auth(self::getPdo());
-        }
-        return self::$auth;
-    }
+
 }

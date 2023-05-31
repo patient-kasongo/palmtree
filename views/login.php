@@ -34,7 +34,7 @@
             <input type="text" name="username" placeholder="Nom d'utilisateur" class="form-control" required>
         </div>
         <div class="form-group m-1">
-            <input type="text" name="password" placeholder="mot de pass" class="form-control" required>
+            <input type="password" name="password" placeholder="mot de pass" class="form-control" required>
         </div>
         <button type="submit" class="btn red-bg text-white">Login</button>
     </form>
