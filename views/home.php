@@ -47,7 +47,7 @@
                     <a href="#services" class="nav-item nav-link">Services</a>
                     <a href="#formation" class="nav-item nav-link">Formation</a>
                     <a href="#contact" class="nav-item nav-link">Contact</a>
-                    <a href="" class="nav-item nav-link">Se connecter</a>
+                    <a href="/public/login" class="nav-item nav-link">Se connecter</a>
                 </div>
 
             </div>

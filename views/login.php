@@ -1,5 +1,26 @@
 <?php
-
+ require VENDOR;
+ $error=false;
+ $pdo= \App\Database::getPdo();
+ $auth=new \App\Authentification($pdo);
+ $user=$auth->isConnect();
+ if($user != null){
+     $user->redirectUser($user->getRole());
+     exit();
+ }
+ if(isset($_POST['username']) && isset($_POST['password'])){
+     $auth->setPseudo($_POST['username']);
+     $auth->setMotdepasse($_POST['password']);
+     $user=$auth->login();
+     if($user){
+         $user->redirectUser($user->getRole());
+         exit();
+     }
+ $error=true;
+ }
+ if($error){
+     echo "<div class='alert alert-danger'>Vous avez saisi des identifiants incorrect</div>";
+ }
 ?>
 
 <section class="container text-center">
