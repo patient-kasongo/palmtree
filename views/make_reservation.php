@@ -2,8 +2,8 @@
     if(!empty($_POST)){
         $reservation=new \App\Reservation();
         $reservation->client=new \App\Client();
-        $reservation->cours=new \App\Cours();
-        $reservation->cours->setId($match['params']['id'] ?? 0);
+        $reservation->session=new \App\session();
+        $reservation->session->setId($match['params']['id'] ?? 0);
         $reservation->client->setFirstname($_POST['firstname']);
         $reservation->client->setSecondname($_POST['secondname']);
         $reservation->client->setLastname($_POST['lastname']);

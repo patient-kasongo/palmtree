@@ -3,6 +3,7 @@
 
     class session
     {
+        private $id;
         private $description;
         private $debut;
         private $fin;
@@ -11,6 +12,13 @@
         private $prixModule;
         private $nombreModule;
 
+        /**
+         * @param mixed $id
+         */
+        public function setId($id): void
+        {
+            $this->id = $id;
+        }
         public function setDescription($description)
         {
             $this->description = $description;
@@ -45,6 +53,13 @@
             $this->idCours = $idCours;
         }
 
+        /**
+         * @return mixed
+         */
+        public function getId()
+        {
+            return $this->id;
+        }
         public function saveSession():bool
         {
             $pdo= Database::getPdo();
