@@ -32,4 +32,12 @@ class Reservation
         return $reservations;
 
     }
+    public static function getClientByIdReservation($id){
+        $pdo=Database::getPdo();
+        $query="SELECT idReservation,clients.idCl, nom, postNom, preNom, genre, intitule, prix, prixModule, nombreModule,numPhone,numWhatapp,email,adresse,etudesFaites,diplomeObtenu,nationality,disponibility from clients inner join reservation on clients.idCl = reservation.idCl inner join session on reservation.idSession=session.idSession inner join cours on session.idCours=cours.idCours where idReservation=?";
+        $stmt=$pdo->prepare($query);
+        $stmt->execute([$id]);
+        $client=$stmt->fetch();
+        return $client;
+    }
 }
