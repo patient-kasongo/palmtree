@@ -104,7 +104,7 @@
                         <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Palm tree strength</a>. Tout droit réservé.
 
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">Patient KASONGO & Vainqueur KASUMBA</a></p>
+                            Designed by PatientKASONGO & VainqueurKASUMBA</p>
                     </div>
                 </div>
             </div>

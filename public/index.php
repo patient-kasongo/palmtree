@@ -15,6 +15,7 @@
     $router->map('GET|POST', '/public/session/create','create_session','create_session');
     $router->map('GET|POST', '/public/login','login','login');
     $router->map('GET|POST', '/public/logout','logout','logout');
+    $router->map('GET|POST','/public/client/validation-[i:id]','validation');
 
     $match = $router->match();
 

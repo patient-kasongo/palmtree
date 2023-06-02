@@ -40,4 +40,15 @@ class Reservation
         $client=$stmt->fetch();
         return $client;
     }
+    public static function validate($id){
+        try {
+            $pdo=Database::getPdo();
+            $query="UPDATE reservation set etat 'valide' where idReservation = ?";
+            $req=$pdo->prepare($query);
+            $req->execute([$id]);
+            return true;
+        } catch (\PDOException $e) {
+            return false;
+        }
+    }
 }

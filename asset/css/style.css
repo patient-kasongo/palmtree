@@ -6,7 +6,38 @@
     --light: #EEF9FF;
     --dark: #0A8754;
 }
-
+.info .line{
+    display: flex;
+}
+.reçu{
+    background-color: #f8f8f8;
+    margin: auto;
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.reçuFlex{
+    display: flex;
+}
+.info .left{
+    margin-left: 35px;
+}
+.line-rigth{
+    float: right;
+}
+.btncent{
+    margin-top: 10px;
+    margin-left: 60%;
+}
+.reçu .info{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.reçuFlex .rigth{
+    margin-left: 100px;
+    margin-right: 10px;
+}
 .red-bg{
     background-color: var(--minimal)!important;
 }
