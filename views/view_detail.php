@@ -88,7 +88,7 @@
     <?php if($user->getRole() ==='DIRECTION DES FINANCES'){
         echo "<a href='/public/client/validation-". $client->idReservation ."' class='red-bg btn text-white'>VALIDER L'INSCRIPTION</a>";
     }elseif ($user->getRole() ==='SECRETARIAT'){
-        echo '<div class="red-bg btn text-white">Modifié</div>';
+        echo "<a href='/public/client-". $client->idCl ."/modifie' class="."'red-bg btn text-whitre'>Modifié</a>";
     }
     ?>
 </section>

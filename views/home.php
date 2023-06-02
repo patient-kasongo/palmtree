@@ -44,8 +44,16 @@
                 <div class="navbar-nav ms-auto py-0">
                     <a href="#home" class="nav-item nav-link active">Home</a>
                     <a href="#about" class="nav-item nav-link">A propos</a>
-                    <a href="#services" class="nav-item nav-link">Services</a>
-                    <a href="#formation" class="nav-item nav-link">Formation</a>
+                    <a class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Nos programmes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">ASSU JOB</a>
+                            <a class="dropdown-item" href="#">PTS IT LAB</a>
+                            <a class="dropdown-item" href="#">BUSINESS CONSULTING</a>
+                        </div>
+                    </a>
                     <a href="#contact" class="nav-item nav-link">Contact</a>
                     <a href="/public/login" class="nav-item nav-link">Se connecter</a>
                 </div>
