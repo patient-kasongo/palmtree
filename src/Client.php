@@ -14,17 +14,19 @@ class Client
     private $mail;
     private $numWhatsapp;
     private $etudesFaites;
-    private $diplomeObtenu;
     private $nationalie;
     private $diplomeObetenue;
+    private $disponibilite;
 
     /**
      * @param mixed $idClient
      */
-    public function setIdClient(): void
+    public function setIdClient($id=null): void
     {
-        $idClient=$this->createId();
-        $this->idClient = $idClient;
+        if($id===null){
+            $id=$this->createId();
+        }
+        $this->idClient = $id;
     }
 
     /**
@@ -114,6 +116,13 @@ class Client
         $this->diplomeObetenue = $diplomeObetenue;
     }
 
+    /**
+     * @param mixed $disponibilite
+     */
+    public function setDisponibilite($disponibilite): void
+    {
+        $this->disponibilite = $disponibilite;
+    }
     /**
      * @return mixed
      */
@@ -208,6 +217,14 @@ class Client
     {
         return $this->diplomeObetenue;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getDisponibilite()
+    {
+        return $this->disponibilite;
+    }
     private function createId(){
         $id=date('y');
         $id .= $this->firstname[0];
@@ -230,5 +247,42 @@ class Client
                         'adresse'=>$this->adresse,
                         'genre'=>$this->genre]
                         );
+    }
+    public function  modifier(){
+        $pdo=Database::getPdo();
+        try{
+            $query="UPDATE clients set nom=:name, postNom=:postnom, preNom=:prenom, numWhatapp=:whatsapp,numPhone=:phone, email=:email,adresse=:adresse,genre=:genre,etudesFaites=:etudes, diplomeObtenu=:diplome,nationality=:nationalite, disponibility=:disponibilite where idCl=:id";
+            $stmt=$pdo->prepare($query);
+            $stmt->execute(['name'=>$this->firstname,
+                'postnom'=>$this->secondname,
+                'prenom'=>$this->lastname,
+                'whatsapp'=>$this->numWhatsapp,
+                'phone'=>$this->phoneNumber,
+                'email'=>$this->mail,
+                'adresse'=>$this->adresse,
+                'genre'=>$this->genre,
+                'etudes'=>$this->etudesFaites,
+                'diplome'=>$this->diplomeObetenue,
+                'nationalite'=>$this->nationalie,
+                'disponibilite'=>$this->disponibilite,
+                'id'=>$this->idClient
+
+            ]);
+
+            return true;
+        }catch (\PDOException $e){
+            return false;
+        }
+    }
+
+    public function getClientById($id){
+        $pdo=Database::getPdo();
+        $stmt=$pdo->prepare("SELECT * from clients where idCl=?");
+        $this->getIdClient();
+        $stmt->execute([$id]);
+        $client=$stmt->fetch();
+
+        return $client;
+
     }
 }

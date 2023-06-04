@@ -86,8 +86,9 @@
         public static function getSessions()
         {
             $connexion=Database::getPdo();
+            $dateaujourdhui=date('Y-m-d');
             try {
-                $query = "SELECT idSession,description,debut,fin,prix,prixModule,nombreModule,intitule from session inner join cours on session.idCours = cours.idCours";
+                $query = "SELECT idSession,description,debut,fin,prix,prixModule,nombreModule,intitule from session inner join cours on session.idCours = cours.idCours where fin > $dateaujourdhui";
                 $req=$connexion->prepare($query);
                 $req->execute();
                 $session = $req->fetchAll();
