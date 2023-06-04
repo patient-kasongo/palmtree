@@ -74,6 +74,9 @@ class Recu
     {
         return $this->date;
     }
+    public function enregistrer(){
+
+    }
     public static function convertirEnLettres($nombre)
     {
         $unites = [
@@ -121,25 +124,25 @@ class Recu
             }
         }
         if ($nombre < 80) {
-            return $unites[60] . '-' . convertirEnLettres($nombre - 60);
+            return $unites[60] . '-' . self::convertirEnLettres($nombre - 60);
         }
         if ($nombre < 90) {
-            return $unites[80] . '-' . convertirEnLettres($nombre - 80);
+            return $unites[80] . '-' . self::convertirEnLettres($nombre - 80);
         }
         if ($nombre < 100) {
-            return $unites[90] . '-' . convertirEnLettres($nombre - 90);
+            return $unites[90] . '-' . self::convertirEnLettres($nombre - 90);
         }
         if ($nombre == 100) {
             return 'cent';
         }
         if ($nombre < 200) {
-            return 'cent-' . convertirEnLettres($nombre - 100);
+            return 'cent-' . self::convertirEnLettres($nombre - 100);
         }
         if ($nombre < 1000) {
             if ($nombre % 100 == 0) {
                 return $unites[intdiv($nombre,100)] . ' cents';
             } else {
-                return $unites[intdiv($nombre,100)] . ' cent-' . convertirEnLettres($nombre % 100);
+                return $unites[intdiv($nombre,100)] . ' cent-' . self::convertirEnLettres($nombre % 100);
             }
         }
     }

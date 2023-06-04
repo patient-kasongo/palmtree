@@ -24,12 +24,13 @@
 
     <!-- Template Stylesheet -->
     <link href="../../asset/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../asset/css/print.css" type='text/css' media='print'>
 </head>
 <body>
     <?= $contents ?? 'No found'?>
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp footer" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-4 col-md-6 footer-about">
@@ -118,6 +119,7 @@
 
 
     <script src="../../asset/js/spy.js"></script>
+    <script src="../../asset/js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../../asset/lib/wow/wow.min.js"></script>
@@ -125,6 +127,8 @@
     <script src="../../asset/lib/waypoints/waypoints.min.js"></script>
     <script src="../../asset/lib/counterup/counterup.min.js"></script>
     <script src="../../asset/lib/owlcarousel/owl.carousel.min.js"></script>
+
+
 
     <!-- Template Javascript -->
     <script src="../../asset/js/main.js"></script>
