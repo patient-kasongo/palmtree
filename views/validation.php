@@ -38,6 +38,6 @@
             <h5 class="sign">Signature</h5>
         </div>
     </div>
-    <button class="btn red-bg text-white text-center imprimer">Imprimer</button>
 </div>
+<button class="btn red-bg text-white text-center imprimer">Imprimer</button>
 
