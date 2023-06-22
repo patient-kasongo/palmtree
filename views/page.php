@@ -8,6 +8,8 @@
     <meta content="palm tree strength" name="keywords">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="../../asset/img/palm(2).png" rel="icon">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 
@@ -43,21 +45,21 @@
                 </div>
                 <div class="col-lg-8 col-md-6">
                     <div class="row gx-5">
-                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                        <address class="col-lg-4 col-md-12 pt-5 mb-5">
                             <div class="section-title section-title-sm position-relative pb-3 mb-4">
                                 <h3 class="text-light mb-0">Get In Touch</h3>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt red-color me-2"></i>
-                                <p class="mb-0">123 Street, New York, USA</p>
+                                <p class="mb-0">33, avenue Mwepu, Lumbumbashi, RDC</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open red-color me-2"></i>
-                                <p class="mb-0">info@example.com</p>
+                                <p class="mb-0">info@palmtreestrengh.com</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone red-color me-2"></i>
-                                <p class="mb-0">+012 345 67890</p>
+                                <p class="mb-0">+243 830 139 600</p>
                             </div>
                             <div class="d-flex mt-4">
                                 <a class="btn red-bg btn-square text-white me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
@@ -65,7 +67,7 @@
                                 <a class="btn red-bg btn-square text-white me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                                 <a class="btn red-bg btn-square text-white" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                             </div>
-                        </div>
+                        </address>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                             <div class="section-title section-title-sm position-relative pb-3 mb-4">
                                 <h3 class="text-light mb-0">Quick Links</h3>

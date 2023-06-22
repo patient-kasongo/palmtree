@@ -11,11 +11,11 @@
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                <address class="d-inline-flex align-items-center" style="height: 45px;">
                     <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>33, avenue Mwepu, Lumbumbashi, RDC</small>
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+243 830 139 600</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
-                </div>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@palmtreestrengh.com</small>
+                </address>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
@@ -41,7 +41,7 @@
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
+                <nav class="navbar-nav ms-auto py-0">
                     <a href="#home" class="nav-item nav-link active">Home</a>
                     <a href="#about" class="nav-item nav-link">A propos</a>
                     <a href="#services" class="nav-item nav-link">Nos services</a>
@@ -57,7 +57,7 @@
                     </a>
                     <a href="#contact" class="nav-item nav-link">Contact</a>
                     <a href="/public/login" class="nav-item nav-link">Se connecter</a>
-                </div>
+                </nav>
 
             </div>
         </nav>
@@ -68,7 +68,7 @@
                     <img class="w-100" src="../asset/img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <img src="../asset/img/palm(2).png" alt="photo palm">
+                            <img src="../../asset/img/palm(2).png" alt="photo palm">
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Palm tree strength</h1>
                             <a href="#services" class="btn red-bg py-md-3 px-md-5 me-3 animated slideInLeft text-white">Nos services</a>
                             <a href="#contact" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Nous contactez</a>
@@ -144,7 +144,7 @@
 
 
     <!-- About palm tree -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="about" data-spy>
+    <section class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="about" data-spy>
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
@@ -181,11 +181,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!-- why choose us -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <section class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold dark_color text-uppercase">Pourquoi choisir palm tree strength</h5>
@@ -235,11 +235,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!--Nos Services -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="services" data-spy>
+    <section class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="services" data-spy>
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold dark_color text-uppercase">Nos services</h5>
@@ -315,11 +315,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!-- formation session -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="formation" data-spy>
+    <section class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="formation" data-spy>
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold dark_color text-uppercase">Sessions de formation</h5>
@@ -353,7 +353,7 @@
                 <?php endif ?>
             </div> 
         </div>          
-    </div>
+    </section>
 
 
 
