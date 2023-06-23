@@ -37,5 +37,4 @@ $reservations=\App\Reservation::getReservations();
             </tbody>
         </table>
     </section>
-
 </section>

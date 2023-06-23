@@ -1,4 +1,5 @@
 <?php
+
     require VENDOR;
     $page_title = "Palm Tree Strength";
     $sessions=\App\Session::getSessions();
@@ -150,9 +151,14 @@
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold dark_color text-uppercase">A propos de nous</h5>
-                        <h1 class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                        <h1 class="mb-0">PALM TREE STRENGTH sarl</h1>
                     </div>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                    <p class="mb-4">PALM TREE STRENGTH PTS SARL est une
+                        entreprise dynamique et innovante qui propose des services de qualité tels que la formation professionnelle dans plusieurs domaines, des
+                        solutions informatiques telles que le développement de logiciels, la création de
+                        bases de données et la maintenance d'ordinateurs etc..., le service de traduction et d'interprétation, la consultance et le coaching
+                        ainsi que l'assurance du travail avec le programme ASSU JOB. Elle a été créée en 2022 et son siège social se situe à Lubumbashi
+                    </p>
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
                             <h5 class="mb-3"><i class="fa fa-check red-color me-3"></i>flexibilité</h5>
@@ -189,7 +195,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold dark_color text-uppercase">Pourquoi choisir palm tree strength</h5>
-                <h1 class="mb-0">We Are Here to Grow Your Business Exponentially</h1>
+                <h1 class="mb-0">Nous sommes ici pour vous faire épanouir</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4">
@@ -199,14 +205,14 @@
                                 <i class="fa fa-cubes text-white"></i>
                             </div>
                             <h4>Best In Industry</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                            <p class="mb-0">Devenir le leader de la promotion des compétences utiles aux professionnels et de l'accompagnement technique des PME pour stimuler la croissance des entreprises.</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                             <div class="red-bg rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-award text-white"></i>
                             </div>
                             <h4>Award Winning</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                            <p class="mb-0">Traduction et interpretation consultance et coaching</p>
                         </div>
                     </div>
                 </div>
@@ -222,14 +228,14 @@
                                 <i class="fa fa-users-cog text-white"></i>
                             </div>
                             <h4>Professional Staff</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                            <p class="mb-0">Formations & salutions informatiques</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                             <div class="red-bg rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-phone-alt text-white"></i>
                             </div>
                             <h4>24/7 Support</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                            <p class="mb-0">Devenir une entreprise qui génère plusieurs autres entreprises grâce à l'entrepreneuriat et à l'incubation</p>
                         </div>
                     </div>
                 </div>
@@ -252,7 +258,8 @@
                             <i class="fa fa-shield-alt text-white"></i>
                         </div>
                         <h4 class="mb-3">Cyber Security</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">1.2OO étudiants ont accès aux programmes de formations (ASSURANCE JOB)
+                        pouvant les aider à réussir leur intégration professionnelle avant le 31/10/2023</p>
                         <a class="btn btn-lg red-bg rounded" href="">
                             <i class="bi bi-arrow-right text-white"></i>
                         </a>
@@ -264,7 +271,7 @@
                             <i class="fa fa-chart-pie text-white"></i>
                         </div>
                         <h4 class="mb-3">Data Analytics</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">100 prestataires de services ont offert </p>
                         <a class="btn btn-lg red-bg rounded" href="">
                             <i class="bi bi-arrow-right text-white"></i>
                         </a>
@@ -276,7 +283,8 @@
                             <i class="fa fa-code text-white"></i>
                         </div>
                         <h4 class="mb-3">Web Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">Au moins 240 entreprises ( celles informelles et celles en projet ) ont été formellement
+                        et légalement créées et ont bénéficié d’un accompagnement</p>
                         <a class="btn btn-lg red-bg rounded" href="">
                             <i class="bi bi-arrow-right text-white"></i>
                         </a>
@@ -288,7 +296,9 @@
                             <i class="fab fa-android text-white"></i>
                         </div>
                         <h4 class="mb-3">Apps Development</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">conseils : juridique,
+                        comptable et fiscal, technologique/informatique, financier,
+                        marketing/communication,... en octobre 2023 </p>
                         <a class="btn btn-lg red-bg rounded" href="">
                             <i class="bi bi-arrow-right text-white"></i>
                         </a>
@@ -300,7 +310,8 @@
                             <i class="fa fa-search text-white"></i>
                         </div>
                         <h4 class="mb-3">SEO Optimization</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <p class="m-0">Pts corner a été installé dans au moins 12 universités/instituts supérieurs, 60 écoles, 54
+                        églises, 12 partis politiques, 60 ONG/ASBL</p>
                         <a class="btn btn-lg red-bg rounded" href=""²>
                             <i class="bi bi-arrow-right text-white"></i>
                         </a>
@@ -308,8 +319,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div class="position-relative red-bg rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
-                        <h3 class="text-white mb-3">Contectez nous</h3>
-                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
+                        <h3 class="text-white mb-3">Contactez nous</h3>
+                        <p class="text-white mb-3">A ce numéro ci dessous, vous pouvez nous appelez et nous vous donnerons les détails sur nous PTS</p>
                         <h2 class="text-white mb-0">+243 830 139 600</h2>
                     </div>
                 </div>
@@ -364,9 +375,12 @@
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold dark_color text-uppercase">Contactez nous</h5>
-                        <h1 class="mb-0">Need A Free Quote? Please Feel Free to Contact Us</h1>
+                        <h1 class="mb-0">pour plus d'informations sur nous, contactez-nous en cas de besoin</h1>
                     </div>
-                    <p class="mb-4">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                    <p class="mb-4">
+                        nous vous donnerons de renseignement et détails sur nos formations, nos solutions en informatique, traduction orale et écrite, 
+                        et assistance technique (accompagnement, consultance: conseils et coaching, incubation, placement). 
+                    </p>
                     <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
                         <div class="red-bg d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
@@ -382,10 +396,10 @@
                         <form>
                             <div class="row g-3">
                                 <div class="col-xl-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Votre adresse mail" style="height: 55px;">
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Votre adresse mail" style="height: 55px;" name="email">
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
+                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Message" name="message"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-dark w-100 py-3" type="submit">Envoyer</button>
@@ -463,7 +477,7 @@
 
 
     <!-- équipe -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div id="team" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold dark_color text-uppercase">Quelques membres de l'équipe</h5>
@@ -482,8 +496,8 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="dark_color">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
+                            <h4 class="dark_color">Papa NT Diedo</h4>
+                            <p class="text-uppercase m-0">D R H</p>
                         </div>
                     </div>
                 </div>
@@ -531,7 +545,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold dark_color text-uppercase">Galérie</h5>
-                <h1 class="mb-0">Read The Latest Articles from Our Blog Post</h1>
+                <h1 class="mb-0">Nos récentes formations dans divers cours</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
@@ -547,7 +561,6 @@
                             </div>
                             <h4 class="mb-3">How to build a website</h4>
                             <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase red-color" href="">Read More <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -564,7 +577,6 @@
                             </div>
                             <h4 class="mb-3">How to build a website</h4>
                             <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase red-color" href="">Read More <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -581,7 +593,6 @@
                             </div>
                             <h4 class="mb-3">How to build a website</h4>
                             <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase red-color" href="">Read More <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

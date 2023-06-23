@@ -39,5 +39,5 @@
         </div>
     </div>
 </div>
-<button class="btn red-bg text-white text-center imprimer">Imprimer</button>
+<button class="btn red-bg text-white imprimer">Imprimer</button>
 
