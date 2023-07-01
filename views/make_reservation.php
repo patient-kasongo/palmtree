@@ -48,6 +48,5 @@
             <input type="radio" class="form-check-input" value="M" name="genre"> M <input type="radio" class="form-check-input" name="genre" value="F"> F
         </div>
         <button type="submit" class="btn red-bg text-white">S'inscrire</button>
-
     </form>
 </section>
