@@ -9,7 +9,7 @@ RewriteCond %{HTTP_HOST} ^(?:www\.)?palmtreestrength\.com(?:.*)$ [nc]
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [redirect=301,L]
 RewriteRule ^public/assujob$   public/index.php/assujob [L]
 RewriteRule ^public/HI-TECH-REV$   public/index.php/HI-TECH-REV [L]
-RewriteRule ^public/public/ptsbussnessboot$   public/index.php/ptsbussnessboot [L]
+RewriteRule ^public/ptsbussnessboot$   public/index.php/ptsbussnessboot [L]
 
 
 

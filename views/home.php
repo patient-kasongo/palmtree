@@ -192,7 +192,7 @@ use Symfony\Component\Mime\Email;
                         </div>
                         <h4 class="mb-1">PTS HI-TECH REV</h4>
                         <p class="m-0">Un programme qui « offre des solutions informatiques innovantes pour digitaliser et simplifier la gestion courante des entreprises »</p>
-                        <a class="btn btn-lg red-bg rounded" href="/public/ptsitlab">
+                        <a class="btn btn-lg red-bg rounded" href="/public/HI-TECH-REV">
                             <i class="bi bi-arrow-right text-white"></i>
                         </a>
                     </div>
