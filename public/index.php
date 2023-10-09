@@ -6,17 +6,10 @@
 
     $router = new AltoRouter();
 
-    $router->map('GET|POST', '/public','home','home');
-    $router->map('GET|POST', '/public/cours/add','create_cours','createcours');
-    $router->map('GET|POST', '/public/cours/management','gestion_cours','management_cours');
-    $router->map('GET|POST', '/public/client/inscription-[i:id]','make_reservation','make_reservation');
-    $router->map('GET|POST', '/public/client/management','gestion_client','management_client');
-    $router->map('GET|POST', '/public/client-[*:id]/modifie','modifie','modifie_client');
-    $router->map('GET|POST', '/public/client/show-[i:id]','view_detail','details_client');
-    $router->map('GET|POST', '/public/session/create','create_session','create_session');
-    $router->map('GET|POST', '/public/login','login','login');
-    $router->map('GET|POST', '/public/logout','logout','logout');
-    $router->map('GET|POST','/public/client/validation-[i:id]','validation');
+    $router->map('GET|POST', '/public/','home','home');
+    $router->map('GET|POST', '/public/assujob','assujob','assujob');
+    $router->map('GET|POST', '/public/HI-TECH-REV','ptsitlab','ptsitlab');
+    $router->map('GET|POST', '/public/ptsbussnessboot','ptsbussnessboot','ptsbussnessboot');
 
     $match = $router->match();
 

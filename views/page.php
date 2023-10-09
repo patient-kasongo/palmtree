@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$page_title ?? 'palm tree strength'; ?></title>
-    <meta content="palm tree strength" name="keywords">
+    <meta content="palm tree strength, pts, PTS, assujob, assu job, formation anglais, formation, c'est quoi pts, hi tech rev, business boost" name="keywords">
 
     <link rel="icon" href="../../asset/img/iconepalm.png">
 
@@ -34,24 +34,20 @@
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner"></div>
     </div>
-
-
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <address class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>33, avenue Mwepu, Lumbumbashi, RDC</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>24, Avenue Mwepu, Réf : Bâtiment de la Poste, Lumbumbashi, RDC</small>
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+243 830 139 600</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@palmtreestrengh.com</small>
+                    <!--<small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@palmtreestrengh.com</small>-->
                 </address>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
                 </div>
             </div>
         </div>
@@ -70,13 +66,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <nav class="navbar-nav ms-auto py-0">
-                    <a href="/public/#home" class="nav-item nav-link active">Home</a>
+                    <a href="/public/#home" class="nav-item nav-link">Home</a>
                     <a href="/public/#about" class="nav-item nav-link">A propos</a>
-                    <a href="/public/#services" class="nav-item nav-link">services</a>
-                    <a href="/public/#programmes" class="nav-item nav-link">programmes</a>
-                    <a href="/public/#formation" class="nav-item nav-link">Formations</a>
+                    <a href="/public/#programmes" class="nav-item nav-link">Nos programmes</a>
+                    <a href="/public/#investir" class="nav-item nav-link">Investir</a>
+                    <a href="/public/#partenaires" class="nav-item nav-link">Nos partenaires</a>
                     <a href="/public/#contact" class="nav-item nav-link">Contact</a>
-                    <a href="/public/login" class="nav-item nav-link">Se connecter</a>
                 </nav>
 
             </div>
@@ -85,13 +80,13 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item
-                    active">
-                    <img class="w-100" src="../../asset/img/carousel-1.jpg" alt="Image">
+                        active">
+                    <img class="w-100" src="../../asset/img/pts_banner.JPG" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <img src="../../asset/img/palm(2).png" alt="photo palm">
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Palm tree strength</h1>
-                            <a href="#services" class="btn red-bg py-md-3 px-md-5 me-3 animated slideInLeft text-white">Nos services</a>
+                            <a href="#programmes" class="btn red-bg py-md-3 px-md-5 me-3 animated slideInLeft text-white">Nos programmes</a>
                             <a href="#contact" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Nous contactez</a>
                         </div>
                     </div>
@@ -100,9 +95,9 @@
                     <img class="w-100" src="../../asset/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creativité & Innovation</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creatives et innonvates solutions digitals</h1>
-                            <a href="#services" class="btn red-bg py-md-3 px-md-5 me-3 animated slideInLeft text-white">Nos services</a>
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Palm Tree Strength</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">L'élan vers l’excellence </h1>
+                            <a href="#programmes" class="btn red-bg py-md-3 px-md-5 me-3 animated slideInLeft text-white">Nos programmes</a>
                             <a href="#contact" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Nous contactez</a>
                         </div>
                     </div>
@@ -120,6 +115,48 @@
             </button>
         </div>
     </div>
+    <!-- Facts Start -->
+    <div class="container-fluid facts py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-3">
+            <div class="row gx-0">
+                <div class="col-lg-5 wow rollIn" style="margin: 0 auto;" data-wow-delay="0.1s">
+                    <div class="primary-background shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-users primary-color"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Personne(s) formée(s)</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">225</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 wow rollIn" style="margin: 0 auto;" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4 secondary_background" style="height: 150px;">
+                        <div class="primary-background d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Programmes</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">3</h1>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="primary-background shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-award primary-color"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Certificats</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">12</h1>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+
 
     <?= $contents ?? 'No found'?>
 
@@ -143,7 +180,7 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt red-color me-2"></i>
-                                <p class="mb-0">33, avenue Mwepu, Lumbumbashi, RDC</p>
+                                <p class="mb-0">24, Avenue Mwepu, Réf : Bâtiment de la Poste, Lumbumbashi, RDC</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open red-color me-2"></i>
@@ -154,7 +191,6 @@
                                 <p class="mb-0">+243 830 139 600</p>
                             </div>
                             <div class="d-flex mt-4">
-                                <a class="btn red-bg btn-square text-white me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn red-bg btn-square text-white me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
                                 <a class="btn red-bg btn-square text-white me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
                                 <a class="btn red-bg btn-square text-white" href="#"><i class="fab fa-instagram fw-normal"></i></a>
@@ -167,9 +203,8 @@
                             <nav class="link-animated d-flex flex-column justify-content-start">
                                 <a class="text-light mb-2" href="/public/#home"><i class="bi bi-arrow-right red-color me-2"></i>Acceuil</a>
                                 <a class="text-light mb-2" href="/public/#about"><i class="bi bi-arrow-right red-color me-2"></i>A propos</a>
-                                <a class="text-light mb-2" href="/public/#services"><i class="bi bi-arrow-right red-color me-2"></i>Nos services</a>
                                 <a class="text-light mb-2" href="/public/#programmes"><i class="bi bi-arrow-right red-color me-2"></i>Nos programmes</a>
-                                <a class="text-light mb-2" href="/public/#formations"><i class="bi bi-arrow-right red-color me-2"></i>Nos formations</a>
+                                <a class="text-light mb-2" href="/public/#partenaires"><i class="bi bi-arrow-right red-color me-2"></i>Nos Partenaires</a>
                                 <a class="text-light" href="#contact"><i class="bi bi-arrow-right red-color me-2"></i>Nous contactez</a>
                             </nav>
                         </div>
@@ -180,9 +215,8 @@
                             <div class="link-animated d-flex flex-column justify-content-start">
                                 <a class="text-light mb-2" href="/public/#home"><i class="bi bi-arrow-right red-color me-2"></i>Acceuil</a>
                                 <a class="text-light mb-2" href="/public/#about"><i class="bi bi-arrow-right red-color me-2"></i>A propos</a>
-                                <a class="text-light mb-2" href="/public/#services"><i class="bi bi-arrow-right red-color me-2"></i>Nos services</a>
                                 <a class="text-light mb-2" href="/public/#programmes"><i class="bi bi-arrow-right red-color me-2"></i>Nos programmes</a>
-                                <a class="text-light mb-2" href="/public/#formations"><i class="bi bi-arrow-right red-color me-2"></i>Nos formations</a>
+                                <a class="text-light mb-2" href="/public/#partenaires"><i class="bi bi-arrow-right red-color me-2"></i>Nos partenaires</a>
                                 <a class="text-light" href="#contact"><i class="bi bi-arrow-right red-color me-2"></i>Nous contactez</a>
                             </div>
                         </div>
