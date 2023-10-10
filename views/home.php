@@ -75,7 +75,7 @@ use Symfony\Component\Mime\Email;
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4 wow fadeInRight" data-wow-delay="0.7s">
-                            <h5 class="mb-2">Contactez nous pour tous renseignement</h5>
+                            <h5 class="mb-2">Contactez-nous pour tous renseignement</h5>
                             <h4 class="primary-color mb-0">+243 830 139 600</h4>
                         </div>
                     </div>
@@ -309,7 +309,7 @@ use Symfony\Component\Mime\Email;
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold dark_color text-uppercase wow fadeInUpBig" data-wow-delay="0.5s">Contactez nous</h5>
+                        <h5 class="fw-bold dark_color text-uppercase wow fadeInUpBig" data-wow-delay="0.5s">Contactez-nous</h5>
                         <h1 class="mb-0 wow zoomInDown">Contactez-nous dès maintenant pour tout problème ou demande d'assistance.</h1>
                     </div>
                     <p class="mb-4 wow zoomInLeft">
@@ -320,7 +320,7 @@ use Symfony\Component\Mime\Email;
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Appelez nous pour tous renseignement</h5>
+                            <h5 class="mb-2">Appelez-nous pour tous renseignement</h5>
                             <h4 class="dark_color mb-0">+243 830 139 600</h4>
                         </div>
                     </div>

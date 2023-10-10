@@ -291,6 +291,9 @@ h6,
         font-size: 30px;
         font-weight: 600 !important;
     }
+    .pts-title{
+        display: none;!important;
+    }
 }
 
 .carousel-control-prev,

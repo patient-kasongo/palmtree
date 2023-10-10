@@ -7,11 +7,10 @@
     <title><?=$page_title ?? 'palm tree strength'; ?></title>
     <meta content="palm tree strength, pts, PTS, assujob, assu job, formation anglais, formation, c'est quoi pts, hi tech rev, business boost" name="keywords">
 
-    <link rel="icon" href="../../asset/img/iconepalm.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <link href="../../asset/img/palm(2).png" rel="icon">
+    <link href="../../asset/img/palm.png" rel="icon">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 
@@ -59,7 +58,7 @@
     <div class="container-fluid position-relative p-0" id="home" data-spy>
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="" class="navbar-brand p-0">
-                <h1 class="m-0"><img src="../../asset/img/palm.png" alt="icone" class="palm icone">Palm tree Strength</h1>
+                <h1 class="m-0"><img src="../../asset/img/palm.png" alt="icone" class="palm-icone"><span class="pts-title">Palm tree Strength</span></h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -84,10 +83,8 @@
                     <img class="w-100" src="../../asset/img/pts_banner.JPG" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <img src="../../asset/img/palm(2).png" alt="photo palm">
+                            <img src="../../asset/img/palm.png" alt="photo palm">
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Palm tree strength</h1>
-                            <a href="#programmes" class="btn red-bg py-md-3 px-md-5 me-3 animated slideInLeft text-white">Nos programmes</a>
-                            <a href="#contact" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Nous contactez</a>
                         </div>
                     </div>
                 </div>
@@ -205,7 +202,7 @@
                                 <a class="text-light mb-2" href="/public/#about"><i class="bi bi-arrow-right red-color me-2"></i>A propos</a>
                                 <a class="text-light mb-2" href="/public/#programmes"><i class="bi bi-arrow-right red-color me-2"></i>Nos programmes</a>
                                 <a class="text-light mb-2" href="/public/#partenaires"><i class="bi bi-arrow-right red-color me-2"></i>Nos Partenaires</a>
-                                <a class="text-light" href="#contact"><i class="bi bi-arrow-right red-color me-2"></i>Nous contactez</a>
+                                <a class="text-light" href="/public/#contact"><i class="bi bi-arrow-right red-color me-2"></i>Nous contacter</a>
                             </nav>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -217,7 +214,7 @@
                                 <a class="text-light mb-2" href="/public/#about"><i class="bi bi-arrow-right red-color me-2"></i>A propos</a>
                                 <a class="text-light mb-2" href="/public/#programmes"><i class="bi bi-arrow-right red-color me-2"></i>Nos programmes</a>
                                 <a class="text-light mb-2" href="/public/#partenaires"><i class="bi bi-arrow-right red-color me-2"></i>Nos partenaires</a>
-                                <a class="text-light" href="#contact"><i class="bi bi-arrow-right red-color me-2"></i>Nous contactez</a>
+                                <a class="text-light" href="/public/#contact"><i class="bi bi-arrow-right red-color me-2"></i>Nous contacter</a>
                             </div>
                         </div>
                     </div>
