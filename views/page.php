@@ -227,8 +227,8 @@
             <div class="row justify-content-end">
                 <div class="col-lg-8 col-md-6">
                     <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Palm tree strength</a>. Tout droit réservé.
-                            Designed by <a href="">PatientKASONGO</a> & <a href="">VainqueurKASUMBA</a></p>
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="https://palmtreestrength.com/">Palm tree strength</a>. Tout droit réservé.
+                            Designed by <a href="https://github.com/patient-kasongo">PatientKASONGO</a> & <a href="https://github.com/waltervq">VainqueurKASUMBA</a></p>
                     </div>
                 </div>
             </div>
