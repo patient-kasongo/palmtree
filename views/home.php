@@ -32,11 +32,11 @@ use Symfony\Component\Mime\Email;
                 <div class="col-md-10 offset-md-1">
                     <div class="text-center">
                         <div class="section-title text-center position-relative pb-3 mb-5">
-                            <h1 class="text-white primary-background p-3 wow zoomInDown" data-wow-delay="0.1s" style="width: 300px; margin: 10px auto; border-radius: 40px">Bienvenue</h1>
+                            <h1 class="text-white primary-background p-3 wow fadeInDown" data-wow-delay="0.1s" style="width: 300px; margin: 10px auto; border-radius: 40px">Bienvenue</h1>
                             <h2 class="wow lightSpeedIn" data-wow-delay="0.2s">Libérez votre potentiel</h2>
                         </div>
-                        <p class="wow fadeInDownBig" data-wow-delay="0.3s">Nous sommes une entreprise innovante et dynamique spécialisée dans l’accompagnement des jeunes à travers les formations professionnelles pratiques pour leur intégration réussie dans le marché du travail et via la consultance dans le lancement, la stabilisation et la croissance des entreprises avec une touche particulière dans l’innovation technologique.</p>
-                        <p class="wow fadeInDownBig" data-wow-delay="0.4s">Palm Tree Strength vous aide à développer vos compétences afin de réaliser vos objectifs personnel, professionnel et entrepreneurial en libérant votre plein potentiel.</p>
+                        <p class="wow fadeInDown" data-wow-delay="0.3s">Nous sommes une entreprise innovante et dynamique spécialisée dans l’accompagnement des jeunes à travers les formations professionnelles pratiques pour leur intégration réussie dans le marché du travail et via la consultance dans le lancement, la stabilisation et la croissance des entreprises avec une touche particulière dans l’innovation technologique.</p>
+                        <p class="wow fadeInDown" data-wow-delay="0.4s">Palm Tree Strength vous aide à développer vos compétences afin de réaliser vos objectifs personnel, professionnel et entrepreneurial en libérant votre plein potentiel.</p>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ use Symfony\Component\Mime\Email;
     <!-- end welcome -->
 
     <!-- About palm tree -->
-    <section class="container-fluid py-5" data-wow-delay="0.1s" id="about" data-spy>
+    <section class="container-fluid py-5" data-wow-delay="0.1s" id="about">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
@@ -83,7 +83,7 @@ use Symfony\Component\Mime\Email;
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow bounceInDown" data-wow-delay="0.9s" src="../asset/img/ptscertificat.JPG" style="object-fit: cover;" alt="image about">
+                        <img class="position-absolute w-100 h-100 rounded wow fadeInDown" data-wow-delay="0.9s" src="../asset/img/ptscertificat.JPG" style="object-fit: cover;" alt="image about">
                     </div>
                 </div>
             </div>
@@ -116,9 +116,9 @@ use Symfony\Component\Mime\Email;
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4  wow bounceInDown" data-wow-delay="0.9s" style="min-height: 350px;">
+                <div class="col-lg-4  wow fadeInDown" data-wow-delay="0.9s" style="min-height: 350px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="../asset/img/feature.jpg" style="object-fit: cover;" alt="future">
+                        <img class="position-absolute w-100 h-100 rounded wow fadeInDown" data-wow-delay="0.1s" src="../asset/img/feature.jpg" style="object-fit: cover;" alt="future">
                     </div>
                 </div>
                 <div class="col-lg-4">

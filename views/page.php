@@ -44,9 +44,9 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://web.facebook.com/profile.php?id=100066594305516"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <!--<a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>-->
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/pts_palmtreestrength/"><i class="fab fa-instagram fw-normal"></i></a>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
 
 
     <!-- Navbar & Carousel Start -->
-    <div class="container-fluid position-relative p-0" id="home" data-spy>
+    <div class="container-fluid position-relative p-0" id="home">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="" class="navbar-brand p-0">
                 <h1 class="m-0"><img src="../../asset/img/palm.png" alt="icone" class="palm-icone"><span class="pts-title">Palm tree Strength</span></h1>
@@ -77,35 +77,34 @@
         </nav>
 
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item
-                        active">
-                    <img class="w-100" src="../../asset/img/pts_banner.JPG" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <img src="../../asset/img/palm.png" alt="photo palm">
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Palm tree strength</h1>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="../../asset/img/pts_banner.JPG" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 900px;">
+                                <img src="../../asset/img/palm.png" alt="photo palm" class="pts-icone">
+                                <h1 class="display-1 text-white mb-md-4 animated zoomIn">Palm tree strength</h1>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="../../asset/img/carousel-2.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Palm Tree Strength</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">L'élan vers l’excellence </h1>
-                            <a href="#programmes" class="btn red-bg py-md-3 px-md-5 me-3 animated slideInLeft text-white">Nos programmes</a>
-                            <a href="#contact" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Nous contactez</a>
+                    <div class="carousel-item">
+                        <img class="w-100" src="../../asset/img/carousel-2.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Palm Tree Strength</h5>
+                                <h1 class="display-1 text-white mb-md-4 animated zoomIn">L'élan vers l’excellence </h1>
+                                <a href="/public/#programmes" class="btn red-bg py-md-3 px-md-5 me-3 animated slideInLeft text-white">Nos programmes</a>
+                                <a href="/public/#contact" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Nous contactez</a>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
                     data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
                     data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
@@ -188,9 +187,9 @@
                                 <p class="mb-0">+243 830 139 600</p>
                             </div>
                             <div class="d-flex mt-4">
-                                <a class="btn red-bg btn-square text-white me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn red-bg btn-square text-white me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                                <a class="btn red-bg btn-square text-white" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn red-bg btn-square text-white me-2" href="https://web.facebook.com/profile.php?id=100066594305516"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <!--<a class="btn red-bg btn-square text-white me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>-->
+                                <a class="btn red-bg btn-square text-white" href="https://www.instagram.com/pts_palmtreestrength/"><i class="fab fa-instagram fw-normal"></i></a>
                             </div>
                         </address>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
