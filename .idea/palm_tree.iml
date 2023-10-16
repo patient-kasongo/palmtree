@@ -23,5 +23,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="rof-services 2.0" />
+    <orderEntry type="module" module-name="SubjetTFC" />
   </component>
 </module>

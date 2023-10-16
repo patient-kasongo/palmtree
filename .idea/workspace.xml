@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea86b50d-a9a8-48a9-be7b-53287a070d5b" name="Changes" comment="" />
+    <list default="true" id="ea86b50d-a9a8-48a9-be7b-53287a070d5b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/palm_tree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/palm_tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/../nouveau-rof/composer.json" />
+    </option>
   </component>
   <component name="ComposerSettings">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
@@ -39,9 +50,26 @@
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/altorouter/altorouter" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/composer" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/../nouveau-rof/vendor/doctrine/lexer" />
     </include_path>
   </component>
   <component name="ProjectId" id="2WXnB3QSLVvhzE3nvIintrkFlwF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,6 +79,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/SubjetTFC&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -72,10 +101,41 @@
       <workItem from="1696972211292" duration="1996000" />
       <workItem from="1696974371675" duration="402000" />
       <workItem from="1697031670690" duration="281000" />
+      <workItem from="1697126451767" duration="3512000" />
+      <workItem from="1697130161164" duration="5241000" />
+      <workItem from="1697185376415" duration="1474000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

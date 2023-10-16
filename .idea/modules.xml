@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../SubjetTFC/.idea/SubjetTFC.iml" filepath="$PROJECT_DIR$/../SubjetTFC/.idea/SubjetTFC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/palm_tree.iml" filepath="$PROJECT_DIR$/.idea/palm_tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nouveau-rof/.idea/rof-services 2.0.iml" filepath="$PROJECT_DIR$/../nouveau-rof/.idea/rof-services 2.0.iml" />
     </modules>
   </component>
 </project>
