@@ -8,7 +8,7 @@
 
     $router->map('GET|POST', '/public/','home','home');
     $router->map('GET|POST', '/public/assujob','assujob','assujob');
-    $router->map('GET|POST', '/public/HI-TECH-REV','ptsitlab','ptsitlab');
+    $router->map('GET|POST', '/public/HITECHREV','ptsitlab','ptsitlab');
     $router->map('GET|POST', '/public/ptsbussnessboot','ptsbussnessboot','ptsbussnessboot');
 
     $match = $router->match();

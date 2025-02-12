@@ -70,6 +70,7 @@
                     <a href="/public/#programmes" class="nav-item nav-link">Nos programmes</a>
                     <a href="/public/#investir" class="nav-item nav-link">Investir</a>
                     <a href="/public/#partenaires" class="nav-item nav-link">Nos partenaires</a>
+                    <a href="/public/#galerie" class="nav-item nav-link">Galerie</a>
                     <a href="/public/#contact" class="nav-item nav-link">Contact</a>
                 </nav>
 

@@ -3,7 +3,7 @@
 use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mime\Email;
     require VENDOR;
-    $page_title = "Palm Tree Strength : spécialiste dans la professionnalisation";
+    $page_title = "Palm Tree Strength : Accompagnement des jeunes dans l'acquisition des leurs compétences";
     $pageDescription="Palm Tree Strength sommes là pour vous accompagner dans votre parcours de développement en vous offrant des programmes et services de haute qualité";
     if(isset($_POST['email'],$_POST['message'],$_POST['phoneNumber'],$_POST['sujet'])){
         $transport = Transport::fromDsn("smtp://main@palmtreestrength.com:\"aT5@FGr63Dkjp\"@palmtreestrength.com:465");
@@ -192,7 +192,7 @@ use Symfony\Component\Mime\Email;
                         </div>
                         <h4 class="mb-1">PTS HI-TECH REV</h4>
                         <p class="m-0">Un programme qui « offre des solutions informatiques innovantes pour digitaliser et simplifier la gestion courante des entreprises »</p>
-                        <a class="btn btn-lg red-bg rounded" href="/public/HI-TECH-REV">
+                        <a class="btn btn-lg red-bg rounded" href="/public/HITECHREV">
                             <i class="bi bi-arrow-right text-white"></i>
                         </a>
                     </div>
@@ -277,8 +277,8 @@ use Symfony\Component\Mime\Email;
                                         <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Access Bank</a>
                                     </div>
                                     <div class="p-4">
-                                        <h5 class="mb-3">USD : 000210060024113349501</h5>
-                                        <h5 class="mb-3">CDF : 000210060024113349502</h5>
+                                        <h5 class="mb-3">USD : 00021006002411334950104</h5>
+                                        <h5 class="mb-3">CDF : 00021006002411334950201</h5>
                                     </div>
                                 </div>
                             </div>
@@ -290,7 +290,7 @@ use Symfony\Component\Mime\Email;
                                     </div>
                                     <div class="p-4">
                                         <h5 class="mb-3">M-pesa : +243 833 036 423</h5>
-                                        <h5 class="mb-3">M-pesa : +243 973 310 885 </h5>
+                                        <h5 class="mb-3">Airtel money : +243 973 310 885 </h5>
 
                                     </div>
                                 </div>
@@ -302,6 +302,32 @@ use Symfony\Component\Mime\Email;
         </div>
     </section>
     <!--end investir -->
+
+    <!-- Galerie start -->
+    <section class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="galerie">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-2 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold dark_color text-uppercase">GALERIE</h5>
+            </div>
+            <div>
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div>
+                        <img class="m-1" src="../asset/img/galerie1.jpg" alt="galerie 1">
+                    </div>
+                    <div>
+                        <img class="m-1" src="../asset/img/galerie2.jpg" alt="galerie 2">
+                    </div>
+                    <div>
+                        <img class="m-1" src="../asset/img/galerie3.jpg" alt="galerie 3">
+                    </div>
+                    <div>
+                        <a href="https://drive.google.com/drive/folders/11OY_kov3JtgzDouQhflv0pUFxhHgJ_tz?usp=sharing" class="btn primary-background text-white">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Galerie end -->
 
     <!-- Contactez nous start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="contact" data-spy>
@@ -320,14 +346,15 @@ use Symfony\Component\Mime\Email;
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Appelez-nous pour tous renseignement</h5>
+                            <h5 class="mb-2">Appelez-nous pour tout renseignement</h5>
                             <h4 class="dark_color mb-0">+243 830 139 600</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <img src="../asset/img/call.jpg" alt="">
-                    <!--<div class="primary-background rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.398565204896!2d27.483323773997455!3d-11.66614038854197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19723ec235d3d2e3%3A0x6ee96788f8817f76!2s12%20Av.%20Mwepu%2C%20Lubumbashi!5e0!3m2!1sfr!2scd!4v1700724352733!5m2!1sfr!2scd" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!--<img src="../asset/img/call.jpg" alt="">
+                    <div class="primary-background rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
                         <form method="post">
                             <div class="row g-3">
                                 <div class="col-xl-12">
@@ -416,50 +443,6 @@ use Symfony\Component\Mime\Email;
     </div>
     <!-- commentaire End -->
 
-    <!-- équipe -->
-    <!-- <div id="team" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold dark_color text-uppercase">Quelques membres de l'équipe</h5>
-                <h1 class="mb-0">Une équipe des professionnelles prêtes à vous aidez</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="../asset/img/team-1.jpg" alt="">
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="dark_color">Ntumba Dieudonné</h4>
-                            <p class="text-uppercase m-0">DRH</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="../../asset/img/team-2.jpg" alt="">
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="dark_color">Bond Claver</h4>
-                            <p class="text-uppercase m-0">Directeur des finances</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="../../asset/img/team-3.jpg" alt="">
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="dark_color">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
     <!-- carousel partenaire -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="partenaires">
         <div class="container py-5 mb-5">
